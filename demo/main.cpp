@@ -1,5 +1,6 @@
 #include "hash_search.hpp"
 
+//
 int main(int argc, char* argv[]) {
   HashSearch hashSearch;
   std::signal(SIGINT, hashSearch.interrupt_handler);
